@@ -54,7 +54,7 @@ def get_image_coordinates():
             print("Invalid input. Please enter integer values.")
 
 if __name__ == "__main__":
-   filename = 'img0037.jpg'
+   filename = 'SamplePhoto.jpeg'
    img = io.imread(filename)
    im0 = img[:,0,:]  # take only the first color channel as a test
    xc, yc = get_image_coordinates() # approx position of the source in the main image
