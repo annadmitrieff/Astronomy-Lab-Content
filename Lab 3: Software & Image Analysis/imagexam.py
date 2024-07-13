@@ -1,6 +1,6 @@
 from skimage import io
 import imexam
-img = io.imread('img0037.jpg')
+img = io.imread('SamplePhoto.jpeg')
 viewer = imexam.econnect()   # this will begin 'ds9' on the background
 viewer.view(img[:,:,0])      # display only the first channel (i.e., "R" channel)
 # Then, using the middle mouse button to pan and mouse wheel to zoom onto a star
